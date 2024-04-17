@@ -1,5 +1,7 @@
 package calculadora;
-
+/**
+ * @author Francisco Javier Arenas Diaz
+ */
 public class Resta {
 	
 	public float valorAcumulado;
