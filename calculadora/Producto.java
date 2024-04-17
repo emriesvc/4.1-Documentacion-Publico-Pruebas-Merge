@@ -9,7 +9,7 @@ package calculadora;
 public class Producto {
 
 	/**
-	 * Esta función recibe como parámetros dos números reales y devuelve su producto
+	 * Función que recibe como parámetros dos números reales y devuelve su producto
 	 * @param a primer producto real
 	 * @param b segundo producto real
 	 * @return el resultado del producto de los dos números
@@ -30,10 +30,26 @@ public class Producto {
 		return a*b;
 	}
 	
+	/**
+	 * Función que recibe como parámetros tres números reales y devuelve su producto
+	 * @param a primer producto real
+	 * @param b segundo producto real
+	 * @param c tercer producto real
+	 * @return el resultado del producto de los tres números
+	 * @version 1.1
+	 */
 	public float tresReales(float a, float b, float c) {
 		return a*b*c;
 	}
 	
+	/**
+	 * Función que recibe como parámetros tres números entero y devuelve su producto
+	 * @param a primer producto entero
+	 * @param b segundo producto entero
+	 * @param c tercer producto entero
+	 * @return el resultado del producto de los tres números
+	 * @version 1.1
+	 */
 	public double potencia(double base, double exponente) {
 		return Math.pow(base, exponente);
 	}
