@@ -11,7 +11,7 @@ package calculadora;
  * @author E.M.R
  * @version 1.0.0
  * @since 14/04/2023
- *
+ *hoy es viernes 19-04-24
  */
 
  public class Cociente {
