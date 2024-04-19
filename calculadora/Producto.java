@@ -42,6 +42,14 @@ public class Producto {
 		return a*b*c;
 	}
 	
+	/**
+	 * Función que recibe como parámetros tres números entero y devuelve su producto
+	 * @param a primer producto entero
+	 * @param b segundo producto entero
+	 * @param c tercer producto entero
+	 * @return el resultado del producto de los tres números
+	 * @version 1.1
+	 */
 	public double potencia(double base, double exponente) {
 		return Math.pow(base, exponente);
 	}
