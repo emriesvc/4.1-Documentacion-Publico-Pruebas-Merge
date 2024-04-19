@@ -57,6 +57,11 @@ public class Resta {
 		return a - b - c;
 	}
 
+	/**
+	 * Resta un número al valor acumulado.
+	 * @param a El número a restar del valor acumulado.
+	 * @return El nuevo valor acumulado después de la resta.
+	 */
 	public float restaAcumulado(float a) {
 		valorAcumulado = valorAcumulado - a;
 		return valorAcumulado;
