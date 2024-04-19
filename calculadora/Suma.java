@@ -4,6 +4,7 @@ package calculadora;
  * Esta clase proporciona métodos para realizar operaciones de suma.
  * @author Alejandro Galán Herrera
  * @version 0.1
+ * @since 19/04/2024
  */
 public class Suma {
 	
