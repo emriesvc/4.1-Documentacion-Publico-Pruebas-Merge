@@ -19,10 +19,25 @@ public class Producto {
 		return a*b;
 	}
 	
+	/**
+	 * Esta funcion recibe como parámetros dos números enteros y devuelve su producto
+	 * @param a primer producto entero
+	 * @param b segundo producto entero
+	 * @return resultado del producto de los dos enteros
+	 * @version 1.0
+	*/
 	public int dosEnteros(int a, int b) {
 		return a*b;
 	}
 	
+	/**
+	 * Función que recibe como parámetros tres números reales y devuelve su producto
+	 * @param a primer producto real
+	 * @param b segundo producto real
+	 * @param c tercer producto real
+	 * @return el resultado del producto de los tres números
+	 * @version 1.1
+	 */
 	public float tresReales(float a, float b, float c) {
 		return a*b*c;
 	}
